@@ -80,7 +80,7 @@ header nav ul:nth-of-type(2) li {
 }
 
 #main .main_bg {
-    background-image: url(/imgs/배경.png);
+    /* background-image: url(/imgs/배경.png); */
     width: 46.87%;
     height: 100%;
     background-repeat: no-repeat;
