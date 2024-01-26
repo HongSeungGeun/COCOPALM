@@ -540,7 +540,6 @@ header nav ul:nth-of-type(2) li {
 #section03 .htb_bg {
     width: 800px;
     height: 410px;
-    background-image: url(/imgs/htb.png);
     margin: auto;
     position: relative;
 }
@@ -551,6 +550,9 @@ header nav ul:nth-of-type(2) li {
     background-color: black;
     border-radius: 20px;
     opacity: 0.4;
+    position: absolute;
+    top: 0%;
+    left: 0%;
 }
 
 #section03 .htb_bg .htb_text {

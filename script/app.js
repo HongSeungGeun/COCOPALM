@@ -1,13 +1,3 @@
-new daum.roughmap.Lander({
-    "timestamp" : "1704184588307",
-    "key" : "2hiby",
-    "mapWidth" : "900",
-    "mapHeight" : "250"
-}).render();
-
-
-
-
 $('.top_btn').click(function(){
     $('html, body').animate({
         scrollTop : 0
@@ -88,9 +78,6 @@ $('.modal_open').click(function(){
 $('.modal_close').click(function(){
     $('.modal').css('display', 'none')
 })
-
-
-
 
 
 
