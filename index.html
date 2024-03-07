@@ -9,7 +9,6 @@
     <script src="https://kit.fontawesome.com/ac31ddacbd.js" crossorigin="anonymous"></script>
     <script src="./script/code.jquery.com_jquery-3.7.1.min.js"></script>
     <script src="./script/app.js" defer></script>
-    <script charset="UTF-8" class="daum_roughmap_loader_script" src="https://ssl.daumcdn.net/dmaps/map_js_init/roughmapLoader.js"></script>
 </head>
 <body>
     <!-- container -->
@@ -37,17 +36,6 @@
 
         <div class="main_color_bg">
             <div class="main_bg"><img src="./imgs/배경.png" alt="main_bg"></div> <!-- 2  --> 
-        </div>
-
-            <div class="main_text"> <!-- 3  --> 
-                <p>탱글탱글 코코넛 젤리가 <br>
-                    들어있어 씹는 재미가 <br>
-                    입안 가득 팜팜!
-                </p>
-
-                <button type="button">MORE+</button>
-            </div>
-
             <div class="wave">
                 <div class="wave_box">
                     <div class="wave_one"></div>
@@ -57,6 +45,18 @@
                     <div class="wave_five"></div>
                 </div>
             </div>
+        </div>
+
+            <div class="main_text"> <!-- 3  --> 
+                <p>탱글탱글 코코넛 젤리가 <br>
+                    들어있어 씹는 재미가 <br>
+                    입안 가득 팜팜!
+                </p>
+                
+                <button type="button" class="more_btn">MORE+</button>
+            </div>
+
+            
 
         </main>
         <!-- //main -->
@@ -68,10 +68,10 @@
             <div class="top_box">   <!-- 4  --> 
                 <h2>브랜드 소개</h2>
                 <div class="brand_box">     <!-- 5  --> 
-                    <div class="brand_logo">        <!-- 6  --> 
+                    <div class="brand_logo">        <!-- 14  --> 
                         <img src="./imgs/헤더로고.jpg" alt="소개로고">
                     </div>
-                    <div class="brand_text">        <!-- 7  --> 
+                    <div class="brand_text">        <!-- 15  --> 
                         <p>
                             탱글탱글 알갱이 코코팜은 나타 데 코코가 들어간 음료수로 <br>
                             해태htb에서 생산 / 판매 중입니다. <br>
@@ -84,16 +84,16 @@
                 </div>
             </div>
 
-            <div class="bottom_box">    <!-- 8  --> 
-                <div class="bottom_content">    <!-- 9 --> 
-                    <div class="fresh">     <!-- 10  --> 
-                        <div class="white_circle">      <!-- 11  --> 
+            <div class="bottom_box">    <!-- 16  --> 
+                <div class="bottom_content">    <!-- 17 --> 
+                    <div class="fresh">     <!-- 18  --> 
+                        <div class="white_circle">      <!-- 19  --> 
                             <figure>
                                 <img src="./imgs/fresh.png" alt="fresh">
                             </figure>
                         </div>
 
-                        <div class="fresh_text bottom_text">        <!-- 12  --> 
+                        <div class="fresh_text bottom_text">        <!-- 20  --> 
                             <h3>FRESH</h3>
 
                             <p>항상 신선한 제품으로 <br>
@@ -102,14 +102,14 @@
                         </div>
                     </div>
 
-                    <div class="health">        <!-- 13  --> 
-                        <div class="white_circle">      <!-- 14  --> 
+                    <div class="health">        <!-- 21  --> 
+                        <div class="white_circle">      <!-- 22  --> 
                             <figure>
                                 <img src="./imgs/health.png" alt="health">
                             </figure>
                         </div>
 
-                        <div class="health_text bottom_text">       <!-- 15  --> 
+                        <div class="health_text bottom_text">       <!-- 23  --> 
                             <h3>HEALTH</h3>
 
                             <p>늘 가족 같은 마음으로 <br>
@@ -118,14 +118,14 @@
                         </div>
                     </div>
 
-                    <div class="together">      <!-- 16  --> 
-                        <div class="white_circle">      <!-- 17  --> 
+                    <div class="together">      <!-- 24  --> 
+                        <div class="white_circle">      <!-- 25  --> 
                             <figure>
                                 <img src="./imgs/promise.png" alt="together">
                             </figure>
                         </div>
 
-                        <div class="together_text bottom_text">     <!-- 18  --> 
+                        <div class="together_text bottom_text">     <!-- 26  --> 
                             <h3>TOGETHER</h3>
 
                             <p>언제나 고객님들과 <br>
@@ -160,45 +160,50 @@
             <div class="second_floor">      <!-- 23  --> 
                 <div class="width-90">      <!-- 24 --> 
                     <span class="product_ml">240ml</span>
-                    <span class="product_ml">300ml</span>
+                    <span class="product_ml span_hide">300ml</span>
                     <div class="ml240 ml300">       <!-- 25 --> 
                         
 
-                        <div class="product_flex">      <!-- 26  --> 
-                            <div class="flex_space">        <!-- 27  --> 
-                                <div class="product_box">       <!-- 28  --> 
-                                    <figure><img src="./imgs/240-요구르트.png" alt="240ml-y"></figure>
+                        <div class="product_flex">      <!-- 26  -->
+                            <div class="media_flex">
+                                <div class="flex_space">        <!-- 27  --> 
+                                    <div class="product_box">       <!-- 28  --> 
+                                        <figure><img src="./imgs/240-요구르트.png" alt="240ml-y"></figure>
+                                    </div>
+                                
+                                    <p class="product_e">YOGURT</p>
+                                    <p class="product_k">요구르트</p>
                                 </div>
-                            
-                                <p class="product_e">YOGURT</p>
-                                <p class="product_k">요구르트</p>
+
+                                <div class="flex_space">        <!-- 29  --> 
+                                    <div class="product_box">       <!-- 30  --> 
+                                        <figure><img src="./imgs/240-복숭아.png" alt="240ml-p"></figure>
+                                    </div>
+
+                                    <p class="product_e">PEACH</p>
+                                    <p class="product_k">복숭아</p>
+                                </div>
                             </div>
-
-                            <div class="flex_space">        <!-- 29  --> 
-                                <div class="product_box">       <!-- 30  --> 
-                                    <figure><img src="./imgs/240-복숭아.png" alt="240ml-p"></figure>
-                                </div>
-
-                                <p class="product_e">PEACH</p>
-                                <p class="product_k">복숭아</p>
-                            </div>
                             
-                            <div class="flex_space">        <!-- 31  --> 
-                                <div class="product_box">       <!-- 32  --> 
-                                    <figure><img src="./imgs/300-포도.png" alt="300ml-g"></figure>
-                                </div>
-                            
-                                <p class="product_e">GRAPE</p>
-                                <p class="product_k">포도</p>
-                            </div>
-
-                            <div class="flex_space">        <!-- 33  --> 
-                                <div class="product_box">       <!-- 34  --> 
-                                    <figure><img src="./imgs/300-망고.png" alt="300ml-m"></figure>
+                            <span class="product_ml span_show"> 300ml</span>
+                            <div class="media_flex">
+                                <div class="flex_space">        <!-- 31  --> 
+                                    <div class="product_box">       <!-- 32  --> 
+                                        <figure><img src="./imgs/300-포도.png" alt="300ml-g"></figure>
+                                    </div>
+                                
+                                    <p class="product_e">GRAPE</p>
+                                    <p class="product_k">포도</p>
                                 </div>
 
-                                <p class="product_e">MANGO</p>
-                                <p class="product_k">망고</p>
+                                <div class="flex_space">        <!-- 33  --> 
+                                    <div class="product_box">       <!-- 34  --> 
+                                        <figure><img src="./imgs/300-망고.png" alt="300ml-m"></figure>
+                                    </div>
+
+                                    <p class="product_e">MANGO</p>
+                                    <p class="product_k">망고</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -210,40 +215,44 @@
                     <span class="product_ml">340ml</span>
                     <div class="ml340">     <!-- 37  --> 
                         <div class="product_flex">      <!-- 38  --> 
-                            <div class="flex_space">        <!-- 39  --> 
-                                <div class="product_box">   <!-- 40  --> 
-                                    <figure><img src="./imgs/340-요구르트.png" alt="340ml-y"></figure>
+                            <div class="media_flex">
+                                <div class="flex_space">        <!-- 39  --> 
+                                    <div class="product_box">   <!-- 40  --> 
+                                        <figure><img src="./imgs/340-요구르트.png" alt="340ml-y"></figure>
+                                    </div>
+                                
+                                    <p class="product_e">YOGURT</p>
+                                    <p class="product_k">요구르트</p>
                                 </div>
-                            
-                                <p class="product_e">YOGURT</p>
-                                <p class="product_k">요구르트</p>
+
+                                <div class="flex_space">    <!-- 41  -->
+                                    <div class="product_box">   <!-- 42  -->
+                                        <figure><img src="./imgs/340-복숭아.png" alt="340ml-p"></figure>
+                                    </div>
+
+                                    <p class="product_e">PEACH</p>
+                                    <p class="product_k">복숭아</p>
+                                </div>
                             </div>
-
-                            <div class="flex_space">    <!-- 41  -->
-                                <div class="product_box">   <!-- 42  -->
-                                    <figure><img src="./imgs/340-복숭아.png" alt="340ml-p"></figure>
-                                </div>
-
-                                <p class="product_e">PEACH</p>
-                                <p class="product_k">복숭아</p>
-                            </div>
                             
-                            <div class="flex_space">    <!-- 43  -->
-                                <div class="product_box">       <!-- 44  -->
-                                    <figure><img src="./imgs/340-포도.png" alt="340ml-g"></figure>
-                                </div>
-                            
-                                <p class="product_e">GRAPE</p>
-                                <p class="product_k">포도</p>
-                            </div>
-
-                            <div class="flex_space">        <!-- 45  -->
-                                <div class="product_box">       <!-- 46  -->
-                                    <figure><img src="./imgs/340-망고.png" alt="340ml-m"></figure>
+                            <div class="media_flex">
+                                <div class="flex_space">    <!-- 43  -->
+                                    <div class="product_box">       <!-- 44  -->
+                                        <figure><img src="./imgs/340-포도.png" alt="340ml-g"></figure>
+                                    </div>
+                                
+                                    <p class="product_e">GRAPE</p>
+                                    <p class="product_k">포도</p>
                                 </div>
 
-                                <p class="product_e">MANGO</p>
-                                <p class="product_k">망고</p>
+                                <div class="flex_space">        <!-- 45  -->
+                                    <div class="product_box">       <!-- 46  -->
+                                        <figure><img src="./imgs/340-망고.png" alt="340ml-m"></figure>
+                                    </div>
+
+                                    <p class="product_e">MANGO</p>
+                                    <p class="product_k">망고</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -254,45 +263,50 @@
             <div class="fourth_floor">      <!-- 47  -->
                 <div class="width-90">      <!-- 48  -->
                     <span class="product_ml">1L</span>
-                    <span class="product_ml">1.5L</span>
+                    <span class="product_ml span_hide">1.5L</span>
                     <div class="l1 l15">        <!-- 49  -->
                         
 
                         <div class="product_flex">      <!-- 50  -->
-                            <div class="flex_space">    <!-- 51  -->
-                                <div class="product_box">   <!-- 52  -->
-                                    <figure><img src="./imgs/1-복숭아.png" alt="1l-p"></figure>
+                            <div class="media_flex">
+                                <div class="flex_space">    <!-- 51  -->
+                                    <div class="product_box">   <!-- 52  -->
+                                        <figure><img src="./imgs/1-복숭아.png" alt="1l-p"></figure>
+                                    </div>
+                                
+                                    <p class="product_e">PEACH</p>
+                                    <p class="product_k">복숭아</p>
                                 </div>
-                            
-                                <p class="product_e">PEACH</p>
-                                <p class="product_k">복숭아</p>
+
+                                <div class="flex_space">        <!-- 53  -->
+                                    <div class="product_box">       <!-- 54  -->
+                                        <figure><img src="./imgs/1-포도.png" alt="1l-g"></figure>
+                                    </div>
+
+                                    <p class="product_e">GRAPE</p>
+                                    <p class="product_k">포도</p>
+                                </div>
                             </div>
-
-                            <div class="flex_space">        <!-- 53  -->
-                                <div class="product_box">       <!-- 54  -->
-                                    <figure><img src="./imgs/1-포도.png" alt="1l-g"></figure>
-                                </div>
-
-                                <p class="product_e">GRAPE</p>
-                                <p class="product_k">포도</p>
-                            </div>
                             
-                            <div class="flex_space">        <!-- 55  -->
-                                <div class="product_box">       <!-- 56  -->
-                                    <figure><img src="./imgs/1.5-복숭아.png" alt="1.5l-p"></figure>
-                                </div>
-                            
-                                <p class="product_e">PEACH</p>
-                                <p class="product_k">복숭아</p>
-                            </div>
-
-                            <div class="flex_space">        <!-- 57  -->
-                                <div class="product_box">       <!-- 58  -->
-                                    <figure><img src="./imgs/1.5-포도.png" alt="1.5l-g"></figure>
+                            <span class="product_ml span_show">1.5L</span>
+                            <div class="media_flex">
+                                <div class="flex_space">        <!-- 55  -->
+                                    <div class="product_box">       <!-- 56  -->
+                                        <figure><img src="./imgs/1.5-복숭아.png" alt="1.5l-p"></figure>
+                                    </div>
+                                
+                                    <p class="product_e">PEACH</p>
+                                    <p class="product_k">복숭아</p>
                                 </div>
 
-                                <p class="product_e">GRAPE</p>
-                                <p class="product_k">포도</p>
+                                <div class="flex_space">        <!-- 57  -->
+                                    <div class="product_box">       <!-- 58  -->
+                                        <figure><img src="./imgs/1.5-포도.png" alt="1.5l-g"></figure>
+                                    </div>
+
+                                    <p class="product_e">GRAPE</p>
+                                    <p class="product_k">포도</p>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -345,7 +359,9 @@
                     </div>
                 </div>
                 
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.1952544167748!2d126.97020960788988!3d37.56942118066233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca29212f93cb7%3A0xc97faf88fea44658!2zTEfqtJHtmZTrrLjruYzrlKk!5e0!3m2!1sko!2skr!4v1706251224516!5m2!1sko!2skr" width="900" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="modal_map">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1581.1952544167748!2d126.97020960788988!3d37.56942118066233!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x357ca29212f93cb7%3A0xc97faf88fea44658!2zTEfqtJHtmZTrrLjruYzrlKk!5e0!3m2!1sko!2skr!4v1706251224516!5m2!1sko!2skr" width="900" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
             </div>
 
         </section>
@@ -359,7 +375,7 @@
             <div class="footer_80"> 
 
                 <div class="footer_left">
-                    <h1><img src="./imgs/푸터로고.png" alt="푸터로고"></h1>
+                    <h2><img src="./imgs/푸터로고.png" alt="푸터로고"></h2>
 
                     <p>(주) 해태htb 대표이사 : 표영호</p>
                     <p>서울시 종로구 새문안로58 LG광화문빌딩</p>

@@ -8,7 +8,83 @@ $('.product_box').focus();
 
 
 
+
+
+
+
+
+
+
+
+
+
+
 let observer = new IntersectionObserver((e)=>{
+    e.forEach((브랜드)=>{
+        if(브랜드.isIntersecting){
+            브랜드.target.style.opacity = 1;
+    }else{
+        브랜드.target.style.opacity = 0;
+    }
+    })
+
+})
+
+let one = document.querySelectorAll('div')
+observer.observe(one[14])
+observer.observe(one[15])
+
+
+
+
+
+
+let observer01 = new IntersectionObserver((e)=>{
+    e.forEach((브랜드01)=>{
+        if(브랜드01.isIntersecting){
+            브랜드01.target.style.opacity = 1;
+    }else{
+        브랜드01.target.style.opacity = 0;
+    }
+    })
+
+})
+
+let two = document.querySelectorAll('div')
+observer01.observe(two[19])
+observer01.observe(two[22])
+observer01.observe(two[25])
+
+
+
+
+
+
+let observer02 = new IntersectionObserver((e)=>{
+    e.forEach((브랜드02)=>{
+        if(브랜드02.isIntersecting){
+            브랜드02.target.style.opacity = 1;
+            브랜드02.target.style.transform = 'translate(0px, 0px)';
+    }else{
+        브랜드02.target.style.opacity = 0;
+        브랜드02.target.style.transform = 'translate(0px, 150px)';
+    }
+    })
+
+})
+
+let three = document.querySelectorAll('div')
+observer02.observe(three[20])
+observer02.observe(three[23])
+observer02.observe(three[26])
+
+
+
+
+
+
+
+let observer03 = new IntersectionObserver((e)=>{
     e.forEach((캐릭터)=>{
         if(캐릭터.isIntersecting){
             캐릭터.target.style.opacity = 1;
@@ -21,16 +97,16 @@ let observer = new IntersectionObserver((e)=>{
 
 })
 
-let one = document.querySelectorAll('div')
-observer.observe(one[67])
-observer.observe(one[72])
+let four = document.querySelectorAll('div')
+observer03.observe(four[73])
+observer03.observe(four[78])
 
 
 
 
 
 
-let observer01 = new IntersectionObserver((e)=>{
+let observer04 = new IntersectionObserver((e)=>{
     e.forEach((캐릭터01)=>{
         if(캐릭터01.isIntersecting){
             캐릭터01.target.style.opacity = 1;
@@ -43,14 +119,14 @@ let observer01 = new IntersectionObserver((e)=>{
 
 })
 
-let two = document.querySelectorAll('div')
-observer01.observe(two[69])
-observer01.observe(two[70])
-observer01.observe(two[71])
+let five = document.querySelectorAll('div')
+observer04.observe(five[75])
+observer04.observe(five[76])
+observer04.observe(five[77])
 
 
 
-let observer02 = new IntersectionObserver((e)=>{
+let observer05 = new IntersectionObserver((e)=>{
     e.forEach((캐릭터02)=>{
         if(캐릭터02.isIntersecting){
             캐릭터02.target.style.opacity = 1;
@@ -63,9 +139,9 @@ let observer02 = new IntersectionObserver((e)=>{
 
 })
 
-let three = document.querySelectorAll('div')
-observer02.observe(three[68])
-observer02.observe(three[73])
+let six = document.querySelectorAll('div')
+observer05.observe(six[74])
+observer05.observe(six[79])
 
 
 
