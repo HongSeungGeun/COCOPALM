@@ -269,6 +269,7 @@ header nav ul:nth-of-type(2) li {
     width: 100%;
     height: 1000px;
     background-color: #dcfcff;
+    overflow: hidden;
 }
 
 #section01 .bottom_box .bottom_content {
@@ -1030,6 +1031,7 @@ footer .footer_80 .footer_right p:nth-child(5) {
         width: 100%;
         height: 400px;
         background-color: #dcfcff;
+        overflow: hidden;
     }
     
     #section01 .bottom_box .bottom_content {
@@ -1729,6 +1731,7 @@ footer .footer_80 .footer_right p:nth-child(5) {
         width: 100%;
         height: 400px;
         background-color: #dcfcff;
+        overflow: hidden;
     }
     
     #section01 .bottom_box .bottom_content {
@@ -2383,6 +2386,7 @@ footer .footer_80 .footer_right p:nth-child(5) {
         width: 100%;
         height: 950px;
         margin-top: 80px;
+        margin-bottom: 200px;
     }
     
     #section01 .top_box {
@@ -2423,7 +2427,7 @@ footer .footer_80 .footer_right p:nth-child(5) {
 
     #section01 .bottom_box {
         width: 100%;
-        height: 300px;
+        height: 350px;
         background-color: #dcfcff;
     }
     
@@ -2510,7 +2514,7 @@ footer .footer_80 .footer_right p:nth-child(5) {
     }
     
     #section01 .bottom_box .bottom_content .bottom_text p {
-        font-size: 0.4rem;
+        font-size: 0.5rem;
         padding-top: 30px;
     }
 
